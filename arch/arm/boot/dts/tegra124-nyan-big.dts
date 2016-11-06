@@ -9,7 +9,8 @@
 	compatible = "google,nyan-big", "nvidia,tegra124";
 
 	panel: panel {
-		compatible = "auo,b133xtn01";
+		compatible = "auo,b133xtn01";     /* The WXGA version */
+		/*compatible = "auo,b133htn01";*/ /* The 1080P version */
 
 		backlight = <&backlight>;
 		ddc-i2c-bus = <&dpaux>;
